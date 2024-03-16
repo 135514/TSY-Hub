@@ -47,7 +47,7 @@ int main()
             {
                 for (int num = 10; num <= injection_maxnum; num+=10)
                 {     
-                    printf("注射剂量选择为：%.2lf/%dml\n注射选择次数为：%d次\n单次注射剂量为：%.2lf/%d=%.2lfml\n\n", Dosage[i],Syringe[j],num,Dosage[i],num,Dosage[i]/num);  
+                    printf("注射剂量选择为：%.2lf/%dml\n注射选择次数为：%d次\n单次注射剂量为：%.2lf/%d=%.4lfml\n\n", Dosage[i],Syringe[j],num,Dosage[i],num,Dosage[i]/num);  
                 }
                 break;
             }
